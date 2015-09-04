@@ -107,7 +107,6 @@ todo_include_todos = False
 # -- Options for HTML output ----------------------------------------------
 
 
-html_theme_path = ["_themes", ]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = "cagd_sphinx_rtd_theme"
@@ -118,7 +117,7 @@ html_theme = "cagd_sphinx_rtd_theme"
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ["_themes", ]
+html_theme_path = ["_themes"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
